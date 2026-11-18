@@ -10,9 +10,9 @@ Gem::Specification.new do |spec|
   spec.email = ["d.apostolovski@protonmail.com"]
   spec.summary = "Attribute grouping for `ActiveModel` validations"
   spec.description = <<~DESCRIPTION
-    `validates_some` is an extenstion to the ActiveModel validation API.
-
-    The `validates_some` method filters declared validations for the referenced attributes. It expects that just _some_ (at least one) of the listed attributes are valid for the whole group of attributes to be considered validated.
+    Adds the validates_some method to the ActiveModel validation API.
+    The method filters declared validations for the attributes passed to it.
+    It expects that just some (at least one) of the listed attributes are valid for the whole group of attributes to be considered validated.
   DESCRIPTION
   spec.homepage = "https://github.com/themetar/validates_some"
   spec.required_ruby_version = ">= 3.0.0"

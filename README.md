@@ -2,7 +2,7 @@
 
 Attribute grouping for `ActiveModel` validations.
 
-`validates_some` is an extenstion to the ActiveModel validation API. The `validates_some` method filters declared validations for the referenced attributes. ActiveModel validations are by default all or nothing: the object is `valid?` if every and all attributes pass their validations. `validates_some` expects that just _some_ (at least one) of the listed attributes are valid for the whole group of attributes to be considered validated. If one of the attributes passes its validations without errors, the rest of the attributes' errors are suppressed and the attributes are reset to default values.
+`validates_some` is an extension to the ActiveModel validation API. The `validates_some` method filters declared validations for the referenced attributes. ActiveModel validations are by default all or nothing: the object is `valid?` if every and all attributes pass their validations. `validates_some` expects that just _some_ (at least one) of the listed attributes are valid for the whole group of attributes to be considered validated. If one of the attributes passes its validations without errors, the rest of the attributes' errors are suppressed and the attributes are reset to default values.
 
 ## Usage
 
